@@ -18,6 +18,7 @@ The following reasons are why we mostly use 3x3 -
 
 "99" iterations are needed. Calculations:-
 
+
 199, 197, 195, 193, 191, 
 189, 187, 185, 183, 181, 
 179, 177, 175, 173, 171, 
