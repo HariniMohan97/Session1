@@ -1,10 +1,10 @@
 
 1)What are Channels and Kernels (according to EVA)?
 
-Kernals
+Kernals:
 Kernels are the feature extractors in the form of filters. These kernels are numpy matrices that convolve over another matrix (mostly holding the pixel intensity values) of an image from which we want to extract the features. Each filter is said to extract one set or type of features and hence one filter can have several kernals giving out several output matrices(output of convolution of each kernal with image matrix) that can later be added with one another to give one output for one filter containing many kernals. 
 
-Channels
+Channels:
 The input image can consist of several channels or be divided into several channels. Like RGB images can have 3 channels each being a matrix of respective red, blue and green values. So a channel is simply the input matrix of the image from which the feature is being extracted from. Like input channels, there are output channels which are nothing but the output of the convolution. The number of output channels is equal to the number of filters. 
 The number of input channels can be more than 3. Like for example, medical images which have more than 3 channels.
 
