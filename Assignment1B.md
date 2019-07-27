@@ -14,6 +14,7 @@ The following reasons are why we mostly use 3x3 -
 -> We can achieve any type of convolution by combining multiple 3x3 convolutions. For example, 2 3x3 convolutions is same as one 5x5 convolutions. 
 -> While following the above method, we can also see that the number of arithmetic operations or number of parameters being stored is also brought down drastically from 25 to 18. 
 
+
 3)How many times do we need to perform 3x3 convolution operation to reach 1x1 from 199x199 (show calculations)
 "99" 3x3 convolutions are required.
 Calculations-
